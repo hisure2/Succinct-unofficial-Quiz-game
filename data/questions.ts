@@ -17,7 +17,7 @@ export const questions: Question[] = [
     correctAnswer: "Succinct SP1",
   },
   {
-    text: "What if SP1 proofs are verified on-chain and take less gas than computing the logic directly on-chain, then using SP1 can",
+    text: "What if SP1 proofs are verified on-chain and take less gas than computing the logic directly on-chain, then using SP1 can.",
     options: ["Increase on-chain computation costs", "Lower gas fees and improve scalability", "Slow down the chain"],
     correctAnswer: "Lower gas fees and improve scalability",
   },
