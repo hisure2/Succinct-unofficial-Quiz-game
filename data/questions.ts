@@ -2,23 +2,23 @@ import type { Question } from "@/types/quiz"
 
 export const questions: Question[] = [
   {
-    text: "How succinct vApp is different dApp",
-    options: ["Fully Onchain", "partially onchain & partially offchain", "offchain logic proof sent onchain"],
-    correctAnswer: "offchain logic proof sent onchain",
+    text: "Why is Succinct SP1 referred to as a universal prover client",
+    options: ["It can generate ZK proofs for any type of application logic", "It eliminates the need for nodes", "It can verify any Ethereum transaction"],
+    correctAnswer: "It can generate ZK proofs for any type of application logic",
   },
   {
-    text: "What makes SP1 different from other ZKVMs like Risc0 or zkSyncs VM",
-    options: ["written in Rust and built with modularity in mind", "prove a specific chain's execution ethereum", "prove a specific chain's execution cosmos"],
-    correctAnswer: "written in Rust and built with modularity in mind",
+    text: "In the Succinct architecture, what do applications primarily do",
+    options: ["Verify blockchain consensus", "Request off-chain computation with proofs", "Secure the prover network"],
+    correctAnswer: "Request off-chain computation with proofs",
   },
   {
-    text: "Suppose a developer wants to prove a programs result to another chain without trusting a centralized party. Which tool is best suited?",
-    options: ["A zk-rollup only on Ethereum", "Succinct SP1", "A multisig bridge"],
-    correctAnswer: "Succinct SP1",
+    text: "Succinct’s approach to ZK proofs enables which key benefit",
+    options: ["High gas fees", "Computation without privacy", "Trustless verification of off-chain computation"],
+    correctAnswer: "Trustless verification of off-chain computation",
   },
   {
-    text: "What if SP1 proofs are verified on-chain and take less gas than computing the logic directly on-chain, then using SP1 can",
-    options: ["Increase on-chain computation costs", "Lower gas fees and improve scalability", "Slow down the chain"],
-    correctAnswer: "Lower gas fees and improve scalability",
-  },
+    text: "What does it logically mean if a verifier accepts a ZK proof in Succinct",
+    options: ["The Ethereum L1 has validated it", "The prover signed a transaction", "The prover executed the task and can prove it without revealing how"],
+    correctAnswer: "The prover executed the task and can prove it without revealing how",
+  }
 ]
