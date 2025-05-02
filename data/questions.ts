@@ -2,23 +2,23 @@ import type { Question } from "@/types/quiz"
 
 export const questions: Question[] = [
   {
-    text: "Why is Succinct SP1 referred to as a universal prover client?",
-    options: ["It can generate ZK proofs for any type of application logic", "It eliminates the need for nodes", "It can verify any Ethereum transaction"],
-    correctAnswer: "It can generate ZK proofs for any type of application logic",
+    text: "SP1 is written in which programming language?",
+    options: ["JavaScript", "solidity", "Rust"],
+    correctAnswer: "Rust",
   },
   {
-    text: "In the Succinct architecture, what do applications primarily do?",
-    options: ["Verify blockchain consensus", "Request off-chain computation with proofs", "Secure the prover network"],
-    correctAnswer: "Request off-chain computation with proofs",
+    text: "What makes SP1 stand out among other zkVMs?",
+    options: ["It is open-source and developer-friendly", "It requires no proof system", "It runs only on Ethereum"],
+    correctAnswer: "It is open-source and developer-friendly",
   },
   {
-    text: "Succinct’s approach to ZK proofs enables which key benefit?",
-    options: ["High gas fees", "Computation without privacy", "Trustless verification of off-chain computation"],
-    correctAnswer: "Trustless verification of off-chain computation",
+    text: "Which cryptographic technique is central to Succinct’s solutions?",
+    options: ["Sharding", "Zero-Knowledge Proofs (ZKPs)", "Homomorphic Encryption"],
+    correctAnswer: "Zero-Knowledge Proofs (ZKPs)",
   },
   {
-    text: "What does it logically mean if a verifier accepts a ZK proof in Succinct?",
-    options: ["The Ethereum L1 has validated it", "The prover signed a transaction", "The prover executed the task and can prove it without revealing how"],
-    correctAnswer: "The prover executed the task and can prove it without revealing how",
+    text: "What is the main use case of SP1 in the context of applications?",
+    options: ["Launching Memecoins", "Building scalable zk-powered apps", "Hosting videos on-chain"],
+    correctAnswer: "Building scalable zk-powered apps",
   }
 ]
