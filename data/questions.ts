@@ -2,23 +2,23 @@ import type { Question } from "@/types/quiz"
 
 export const questions: Question[] = [
   {
-    text: "SP1 is written in which programming language?",
-    options: ["JavaScript", "solidity", "Rust"],
-    correctAnswer: "Rust",
+    text: "Suppose a user runs a guest program on SP1 and receives a proof. If they want Ethereum to verify it, they must ?",
+    options: [" Install Rust on Ethereum", "Publish the SP1 verifier contract", " Run the SP1 node locally"],
+    correctAnswer: "Publish the SP1 verifier contract",
   },
   {
-    text: "What makes SP1 stand out among other zkVMs?",
-    options: ["It is open-source and developer-friendly", "It requires no proof system", "It runs only on Ethereum"],
-    correctAnswer: "It is open-source and developer-friendly",
+    text: "SP1 is a zkVM and you replace the Rust guest program with malicious logic, the proof will?",
+    options: ["Still be accepted", "Fail at verification", "Run silently onchain"],
+    correctAnswer: "Fail at verification",
   },
   {
-    text: "Which cryptographic technique is central to Succinct’s solutions?",
-    options: ["Sharding", "Zero-Knowledge Proofs (ZKPs)", "Homomorphic Encryption"],
-    correctAnswer: "Zero-Knowledge Proofs (ZKPs)",
+    text: "What is the primary purpose of Google Wallet's new age verification feature?",
+    options: ["To enable contactless payments", "To verify a user's age for age-restricted purchases", "To replace physical credit cards"],
+    correctAnswer: "To verify a user's age for age-restricted purchases",
   },
   {
-    text: "What is the main use case of SP1 in the context of applications?",
-    options: ["Launching Memecoins", "Building scalable zk-powered apps", "Hosting videos on-chain"],
-    correctAnswer: "Building scalable zk-powered apps",
+    text: "A proof verified on-chain using SP1 was wrong. What’s the most likely issue?",
+    options: ["Incorrect proof input", "Rust not compiled properly", "Blockchain latency"],
+    correctAnswer: "Incorrect proof input",
   }
 ]
