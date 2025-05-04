@@ -2,23 +2,23 @@ import type { Question } from "@/types/quiz"
 
 export const questions: Question[] = [
   {
-    text: "Suppose a user runs a guest program on SP1 and receives a proof. If they want Ethereum to verify it, they must ?",
-    options: [" Install Rust on Ethereum", "Publish the SP1 verifier contract", " Run the SP1 node locally"],
-    correctAnswer: "Publish the SP1 verifier contract",
+    text: "How does SP1 improve developer experience compared to older zkVMs?",
+    options: ["Uses plain Rust code and a simple proving API", "Avoids any cryptographic assumptions", "Eliminates blockchain fees"],
+    correctAnswer: "Uses plain Rust code and a simple proving API",
   },
   {
-    text: "SP1 is a zkVM and you replace the Rust guest program with malicious logic, the proof will?",
-    options: ["Still be accepted", "Fail at verification", "Run silently onchain"],
-    correctAnswer: "Fail at verification",
+    text: "Which environment does SP1 aim to be compatible with for universal proving?",
+    options: ["Ethereum only", "Celestia only", "Any verifiable backend (Ethereum, Celestia, etc.)"],
+    correctAnswer: "Any verifiable backend (Ethereum, Celestia, etc.)",
   },
   {
-    text: "What is the primary purpose of Google Wallet's new age verification feature?",
-    options: ["To enable contactless payments", "To verify a user's age for age-restricted purchases", "To replace physical credit cards"],
-    correctAnswer: "To verify a user's age for age-restricted purchases",
+    text: "Why is Succinct’s testnet important for developers?",
+    options: ["It mines new tokens", "It allows testing of verifiable apps using SP1", "It replaces mainnet entirely"],
+    correctAnswer: "It allows testing of verifiable apps using SP1",
   },
   {
-    text: "A proof verified on-chain using SP1 was wrong. What’s the most likely issue?",
-    options: ["Incorrect proof input", "Rust not compiled properly", "Blockchain latency"],
-    correctAnswer: "Incorrect proof input",
+    text: "What role do rollups play in SP1’s ecosystem?",
+    options: ["They store NFTs", "They handle UI rendering", "They serve as scalable environments for SP1 apps"],
+    correctAnswer: "They serve as scalable environments for SP1 apps",
   }
 ]
