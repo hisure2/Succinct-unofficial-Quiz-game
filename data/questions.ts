@@ -2,23 +2,23 @@ import type { Question } from "@/types/quiz"
 
 export const questions: Question[] = [
   {
-    text: "How does SP1 improve developer experience compared to older zkVMs?",
-    options: ["Uses plain Rust code and a simple proving API", "Avoids any cryptographic assumptions", "Eliminates blockchain fees"],
-    correctAnswer: "Uses plain Rust code and a simple proving API",
+    text: "Succinct's testnet using SP1 is intended to help developers do what?",
+    options: [" Build ZK applications with verifiable proofs", "Create NFTs with privacy", "Convert ETH to BTC"],
+    correctAnswer: " Build ZK applications with verifiable proofs",
   },
   {
-    text: "Which environment does SP1 aim to be compatible with for universal proving?",
-    options: ["Ethereum only", "Celestia only", "Any verifiable backend (Ethereum, Celestia, etc.)"],
-    correctAnswer: "Any verifiable backend (Ethereum, Celestia, etc.)",
+    text: "What role does the prover play in SP1?",
+    options: [" Generates a proof for program execution", "Publishes blocks to the blockchain", "Compiles the smart contract"],
+    correctAnswer: "Generates a proof for program execution",
   },
   {
-    text: "Why is Succinct’s testnet important for developers?",
-    options: ["It mines new tokens", "It allows testing of verifiable apps using SP1", "It replaces mainnet entirely"],
-    correctAnswer: "It allows testing of verifiable apps using SP1",
+    text: "How does SP1 differ from other ZKVMs like zkEVM?",
+    options: ["It supports general-purpose computation beyond smart contracts", "It is not Turing complete", "It runs only on Ethereum"],
+    correctAnswer: "It supports general-purpose computation beyond smart contracts",
   },
   {
-    text: "What role do rollups play in SP1’s ecosystem?",
-    options: ["They store NFTs", "They handle UI rendering", "They serve as scalable environments for SP1 apps"],
-    correctAnswer: "They serve as scalable environments for SP1 apps",
+    text: "Which of the following best describes the scalability benefit of using SP1?",
+    options: ["Reduced latency for layer-1 networks", "Running contracts in parallel", "Offloading computation to provers and verifying succinct proofs"],
+    correctAnswer: "Offloading computation to provers and verifying succinct proofs",
   }
 ]
